@@ -1,23 +1,91 @@
 <!DOCTYPE html>
-<html lang="es">
+
+<html body{
+
+margin:0;
+
+padding:0;
+
+width:100%;
+
+height:100%;
+
+}
 <head>
 <meta charset="UTF-8">
 <title>Inicio</title>
 
+
+
 <style>
 
 body{
-font-family:Arial;
+
+font-family:italic;
+font-size:20px;
+
 background:#05091f;
+
 color:white;
-padding:20px;
+
 text-align:center;
+
+}
+
+p{
+
+font-family:italic;
+font-size:20px;
+
+background:#05091f;
+
+color:white;
+
+text-align:center;
+
+}
+
+h1{
+
+font-family:italic;
+
+font-size:55px;
+
+color:white;
+
 }
 
 .banner{
-width:100%;
+width:80%;
+max-width:900px;
+display:block;
+margin:20px auto;
 border-radius:20px;
-margin-bottom:30px;
+box-shadow:
+0 0 20px #8f45ff,
+0 0 40px #8f45ff,
+0 0 80px #8f45ff;
+animation:resplandor 3s infinite alternate;
+}
+
+@keyframes resplandor{
+from{
+box-shadow:
+0 0 20px #8f45ff,
+0 0 40px #8f45ff;
+}
+to{
+box-shadow:
+0 0 40px #b56cff,
+0 0 80px #b56cff,
+0 0 120px #b56cff;
+}
+}
+
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #8f45ff;
 }
 
 .intro{
@@ -32,6 +100,12 @@ line-height:1.8;
 </head>
 <body>
 
+<div class="estrella estrella1">✦</div>
+
+<div class="estrella estrella2">✦</div>
+
+<div class="estrella estrella3">✦</div>
+
 <img src="imagen.png" class="banner">
 
 <h1>Artistas Destacados de la Música Urbana Latina</h1>
@@ -43,6 +117,9 @@ La música urbana latina se ha convertido en uno de los géneros más escuchados
 Este sitio presenta información sobre artistas destacados como Ñengo Flow,
 Myke Towers, Eladio Carrión, Dei V, Amenazzy y De La Rose.
 </p>
+
+
+</div>
 
 <p>
 Explora cada sección para conocer su trayectoria, canciones más populares,
